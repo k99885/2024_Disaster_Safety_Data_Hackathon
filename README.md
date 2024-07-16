@@ -131,7 +131,8 @@ data['STATS_VL_DIVIDED'] = data['STATS_VL'] / data['STATS_VL_2']
 ```
 각 지역별로 고령인구수/병원수 값들을 새로운 열에 추가하였습니다. 
 
-<img width="597" alt="스크린샷 2024-07-16 오후 3 22 39" src="https://github.com/user-attachments/assets/03876743-9ca3-432b-8cf6-b11be59751b0">
+<img width="597" alt="스크린샷 2024-07-16 오후 3 22 39" src="https://github.com/user-attachments/assets/83cd7ca8-1630-41ea-9ffa-eca2b2bb534e">
+
 
 
 -> 이때 각 지역별로 고령인구수/병원수의 값(STATS_VL_DIVIDED)이 다른 지역에 비하여 10배가 넘는 지표가 나타나 이러한 지역을 의료사각지대로 판별 하였습니다.
