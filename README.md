@@ -104,7 +104,6 @@ def get_color(feature):
 
 지역별로 고령화 인구수가 많을수록 진한 색으로 설정하였습니다.
 
-
 ```
 # 지도 생성
 m = folium.Map(location=[35.1796, 128.1113], zoom_start=9)
@@ -124,6 +123,9 @@ folium.GeoJson(
 map_path = '/content/gyeongsangnamdo_stats_vl_regions.html'
 m.save(map_path)
 ```
+![인구수](https://github.com/user-attachments/assets/40295583-07ee-42d2-a4ae-dcb585ed9de5)
+
+
 <img width="643" alt="스크린샷 2024-06-12 오전 4 09 32" src="https://github.com/user-attachments/assets/06d82a19-fe31-4c3e-a94e-43b74afa73e0">
 
 ```
@@ -136,6 +138,9 @@ data['STATS_VL_DIVIDED'] = data['STATS_VL'] / data['STATS_VL_2']
 
 
 -> 이때 각 지역별로 고령인구수/병원수의 값(STATS_VL_DIVIDED)이 다른 지역에 비하여 10배가 넘는 지표가 나타나 이러한 지역을 의료사각지대로 판별 하였습니다.
+
+![인구수_병원수](https://github.com/user-attachments/assets/d9d109e0-03f8-425e-a7a4-cdde82738abf)
+
 
 <img width="632" alt="스크린샷 2024-06-12 오전 4 09 01" src="https://github.com/user-attachments/assets/2a42046a-3081-4e66-b909-966c48ee37ef">
 
